@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@effect/platform':
         specifier: ^0.70.2
-        version: 0.70.2(effect@3.11.1)
+        version: 0.70.2(effect@3.11.2)
       '@effect/platform-node':
         specifier: ^0.65.2
-        version: 0.65.2(@effect/platform@0.70.2(effect@3.11.1))(effect@3.11.1)
+        version: 0.65.2(@effect/platform@0.70.2(effect@3.11.2))(effect@3.11.2)
       effect:
         specifier: ^3.10.0
-        version: 3.11.1
+        version: 3.11.2
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -32,7 +32,7 @@ importers:
         version: 0.1.2(typescript@5.7.2)
       '@effect/vitest':
         specifier: ^0.14.1
-        version: 0.14.1(effect@3.11.1)(vitest@2.1.8(@types/node@22.10.1)(jsdom@25.0.1))
+        version: 0.14.2(effect@3.11.2)(vitest@2.1.8(@types/node@22.10.1)(jsdom@25.0.1))
       '@eslint/js':
         specifier: ^9.0.0
         version: 9.16.0
@@ -267,10 +267,10 @@ packages:
     peerDependencies:
       effect: ^3.11.2
 
-  '@effect/vitest@0.14.1':
-    resolution: {integrity: sha512-IM1pkCHUOZsYPnchy2S/sx3I//5t0X+MqugFC6CfDyyy66d5p6xTiCMejzQJxi9mfLnZEEyCU5Jzb/KMb0JUng==}
+  '@effect/vitest@0.14.2':
+    resolution: {integrity: sha512-IJjHsRbeHsdNgwEaD2W/o6ura3N7Evr8E8osWLRqnqDCHyAqaxHikLFkK83C6j1NydU8vePeke1PwhiqtUf+eQ==}
     peerDependencies:
-      effect: ^3.11.1
+      effect: ^3.11.2
       vitest: ^2.0.5
 
   '@esbuild/aix-ppc64@0.21.5':
@@ -1276,6 +1276,7 @@ packages:
 
   bun@1.1.38:
     resolution: {integrity: sha512-cr+UDFiEasyw0kKEbbD7kDewrI2vTo17JssVVjzBv/eNskeL2wikJ+4RNgUfoRqgthCjDZux7r6ELGgIGq6aWw==}
+    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -1558,8 +1559,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  effect@3.11.1:
-    resolution: {integrity: sha512-sYxdX2sYnjtACtZk+p0nlcy5rZWjFHFB5RBON03N+qxF9PSehmv/0ga+t2YjUJE+zKZrzmLYsfYIjPaL5LezQg==}
+  effect@3.11.2:
+    resolution: {integrity: sha512-iBdej2wiVtPijAn04uQQVZK3xtHIdiwLQHvW1KonEuDaHWKjaxbIVwz8TabfP6dWTZlm4jNR8DXUwhq56JWF+Q==}
 
   emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
@@ -3595,18 +3596,18 @@ snapshots:
       repeat-string: 1.6.1
       strip-color: 0.1.0
 
-  '@effect/platform-node-shared@0.20.2(@effect/platform@0.70.2(effect@3.11.1))(effect@3.11.1)':
+  '@effect/platform-node-shared@0.20.2(@effect/platform@0.70.2(effect@3.11.2))(effect@3.11.2)':
     dependencies:
-      '@effect/platform': 0.70.2(effect@3.11.1)
+      '@effect/platform': 0.70.2(effect@3.11.2)
       '@parcel/watcher': 2.5.0
-      effect: 3.11.1
+      effect: 3.11.2
       multipasta: 0.2.5
 
-  '@effect/platform-node@0.65.2(@effect/platform@0.70.2(effect@3.11.1))(effect@3.11.1)':
+  '@effect/platform-node@0.65.2(@effect/platform@0.70.2(effect@3.11.2))(effect@3.11.2)':
     dependencies:
-      '@effect/platform': 0.70.2(effect@3.11.1)
-      '@effect/platform-node-shared': 0.20.2(@effect/platform@0.70.2(effect@3.11.1))(effect@3.11.1)
-      effect: 3.11.1
+      '@effect/platform': 0.70.2(effect@3.11.2)
+      '@effect/platform-node-shared': 0.20.2(@effect/platform@0.70.2(effect@3.11.2))(effect@3.11.2)
+      effect: 3.11.2
       mime: 3.0.0
       undici: 6.21.0
       ws: 8.18.0
@@ -3614,15 +3615,15 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@effect/platform@0.70.2(effect@3.11.1)':
+  '@effect/platform@0.70.2(effect@3.11.2)':
     dependencies:
-      effect: 3.11.1
+      effect: 3.11.2
       find-my-way-ts: 0.1.5
       multipasta: 0.2.5
 
-  '@effect/vitest@0.14.1(effect@3.11.1)(vitest@2.1.8(@types/node@22.10.1)(jsdom@25.0.1))':
+  '@effect/vitest@0.14.2(effect@3.11.2)(vitest@2.1.8(@types/node@22.10.1)(jsdom@25.0.1))':
     dependencies:
-      effect: 3.11.1
+      effect: 3.11.2
       vitest: 2.1.8(@types/node@22.10.1)(jsdom@25.0.1)
 
   '@esbuild/aix-ppc64@0.21.5':
@@ -4732,7 +4733,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  effect@3.11.1:
+  effect@3.11.2:
     dependencies:
       fast-check: 3.23.1
 
